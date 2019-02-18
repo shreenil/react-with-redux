@@ -1,0 +1,4 @@
+export const FETCH_EVENTS = "FETCH_EVENTS";
+export const ADD_EVENTS = "ADD_EVENTS";
+export const DELETE_EVENTS = "DELETE_EVENTS";
+export const UPDATE_EVENTS = "UPDATE_EVENTS";
