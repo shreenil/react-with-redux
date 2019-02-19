@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `Install json-server`
+
+This repository uses json-server npm package to mock APIs through extension.
+
+```npm install json-server -g```
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
@@ -11,6 +17,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
+### `Start json-server`
+
+Open another terminal at same project and start db.json file to create a mock server at port 8000
+```json-server --watch db.json --port 8000```
 
 ### `npm test`
 
