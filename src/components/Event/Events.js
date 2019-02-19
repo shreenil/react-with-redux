@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { events } from './event-data';
 import EventRow from './EventRow';
 import styles from './event.module.css'
 import { connect } from "react-redux";
@@ -10,11 +9,6 @@ class Events extends Component {
 
   EDIT_MODE = false;
 
-  constructor(props) {
-    super(props)
-
-    
-  }
 
   componentWillMount() {
     this.props.fetchEvents();

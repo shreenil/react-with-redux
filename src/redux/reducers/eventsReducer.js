@@ -33,6 +33,8 @@ export default function reducer(state = initState, action) {
                 events: state.events.filter(x => x.id !== action.payload)
             }
         }
+        default: {
+            return state;
+        }
     }
-    return state;
 }
